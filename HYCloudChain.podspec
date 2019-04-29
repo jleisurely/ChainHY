@@ -28,10 +28,21 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/wangyu1001@live.cn/HYCloudChain.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'HYCloudChain/Classes/**/*'
-  
+  s.dependency 'HYUICommonTool'
+  s.dependency 'HYBaseModule'
+  s.dependency 'FFPopup'
+  s.dependency 'Masonry'
+  s.dependency 'ReactiveObjC','~> 3.1.0'
+  s.dependency 'HYDefine'
+  s.dependency 'SVProgressHUD'
+  s.dependency 'TYPagerController'
+  s.dependency 'GetuiSDK', '~> 1.4.3'
+  s.dependency 'RongCloudIM/IMLib'
+  #  s.dependency 'HYDefine'
+  s.prefix_header_contents = '#import <UIColor+Random.h>', '#import <FFPopup/FFPopup.h>', '#import <Masonry/Masonry.h>', '#import <ReactiveObjC/ReactiveObjC.h>', '#import <UILabel+Category.h>', '#import <HYDefine/HYDefine.h>', '#import <UIButton+Category.h>', '#import <SVProgressHUD/SVProgressHUD.h>', '#import <WGlobalJudgeMethod.h>', '#import <TYPagerController/TYTabPagerView.h>', '#import <HYUICommonTool/HYUICommonTool.h>', '#import <HYBaseModule/HYBaseModule.h>'
   # s.resource_bundles = {
   #   'HYCloudChain' => ['HYCloudChain/Assets/*.png']
   # }

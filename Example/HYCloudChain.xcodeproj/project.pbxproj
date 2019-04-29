@@ -23,6 +23,8 @@
 		67D2A6637E26058554915415 /* Pods_HYCloudChain_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF609B774697D5C3A5FBD0C5 /* Pods_HYCloudChain_Tests.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		8883CF4B2276981500241AEB /* HYChainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8883CF4A2276981500241AEB /* HYChainView.m */; };
+		8883CF4E22769B4500241AEB /* chainjson.json in Resources */ = {isa = PBXBuildFile; fileRef = 8883CF4D22769B4500241AEB /* chainjson.json */; };
 		BE09CDA2680879961D5DD5BC /* Pods_HYCloudChain_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE733C38CEAB7380D38513C5 /* Pods_HYCloudChain_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +40,7 @@
 
 /* Begin PBXFileReference section */
 		17D8FCE4AF1E2C417B4FAE83 /* Pods-HYCloudChain_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYCloudChain_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HYCloudChain_Tests/Pods-HYCloudChain_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2319B075D0ACC69C4037A8A5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2319B075D0ACC69C4037A8A5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		51D486F2B7813452CD75E47E /* Pods-HYCloudChain_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYCloudChain_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HYCloudChain_Tests/Pods-HYCloudChain_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* HYCloudChain_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYCloudChain_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -60,13 +62,16 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		737BFA8287B02D13966E96AC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		737BFA8287B02D13966E96AC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		740AB8322604DF38543C63B5 /* Pods-HYCloudChain_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYCloudChain_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HYCloudChain_Example/Pods-HYCloudChain_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		86DCBC6C91CD99929B5B7708 /* Pods-HYCloudChain_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYCloudChain_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HYCloudChain_Example/Pods-HYCloudChain_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8883CF492276981500241AEB /* HYChainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYChainView.h; sourceTree = "<group>"; };
+		8883CF4A2276981500241AEB /* HYChainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYChainView.m; sourceTree = "<group>"; };
+		8883CF4D22769B4500241AEB /* chainjson.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = chainjson.json; sourceTree = "<group>"; };
 		AF609B774697D5C3A5FBD0C5 /* Pods_HYCloudChain_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HYCloudChain_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE733C38CEAB7380D38513C5 /* Pods_HYCloudChain_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HYCloudChain_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F30F744949680ECE93D23753 /* HYCloudChain.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HYCloudChain.podspec; path = ../HYCloudChain.podspec; sourceTree = "<group>"; };
+		F30F744949680ECE93D23753 /* HYCloudChain.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HYCloudChain.podspec; path = ../HYCloudChain.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,8 +142,11 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* HYViewController.h */,
 				6003F5A6195388D20070C39A /* HYViewController.m */,
+				8883CF492276981500241AEB /* HYChainView.h */,
+				8883CF4A2276981500241AEB /* HYChainView.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
+				8883CF4D22769B4500241AEB /* chainjson.json */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
 			name = "Example for HYCloudChain";
@@ -208,6 +216,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				F5B9B8A55B5858A33A1BB67C /* [CP] Embed Pods Frameworks */,
+				62D4E5F2111E0C7D4DAE609B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -279,6 +288,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				8883CF4E22769B4500241AEB /* chainjson.json in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -339,6 +349,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		62D4E5F2111E0C7D4DAE609B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HYCloudChain_Example/Pods-HYCloudChain_Example-resources.sh",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/RCConfig.plist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RCConfig.plist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HYCloudChain_Example/Pods-HYCloudChain_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		F5B9B8A55B5858A33A1BB67C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -348,13 +380,35 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-HYCloudChain_Example/Pods-HYCloudChain_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/HYCloudChain/HYCloudChain.framework",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Aspects/Aspects.framework",
+				"${BUILT_PRODUCTS_DIR}/FFPopup/FFPopup.framework",
+				"${BUILT_PRODUCTS_DIR}/HYBaseModule/HYBaseModule.framework",
+				"${BUILT_PRODUCTS_DIR}/HYUICommonTool/HYUICommonTool.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/TYAlertController/TYAlertController.framework",
+				"${BUILT_PRODUCTS_DIR}/TYPagerController/TYPagerController.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HYCloudChain.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Aspects.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFPopup.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HYBaseModule.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HYUICommonTool.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TYAlertController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TYPagerController.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -393,6 +447,7 @@
 				6003F59E195388D20070C39A /* HYAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* HYViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				8883CF4B2276981500241AEB /* HYChainView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
