@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'HYCloudChain_Example' do
+  pod 'HYCloudChain', :path => '../'
+
+  target 'HYCloudChain_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
